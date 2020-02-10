@@ -1,0 +1,15 @@
+@import "typography";
+
+/*this baseline will be used to set the vertical flow of the text*/
+
+body {
+  /*1.5 x base font size; here: small font or 18px*/
+  line-height: 1.5;
+
+  background-image: linear-gradient(lightblue 1px, transparent 1px);
+  background-size: auto 1.5rem;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-items: center;
+}
